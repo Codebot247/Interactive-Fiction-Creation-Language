@@ -1,0 +1,14 @@
+
+
+page 1 " You're locked in the cell, what shall you do? "
+" 1) Break the lock "
+" 2) Find an exit "
+option 1 > 2
+option 2 > 3
+endpage
+
+page 2 " You break the lock! And suddenly die! "
+endstory
+
+page 3 " You find an escape route, and suddenly die! "
+endstory
